@@ -1,6 +1,6 @@
 # AIGCBench
 
-AIGCBench is a novel and comprehensive benchmark designed for evaluating the capabilities of state-of-the-art video generation algorithms.
+:dart::dart: AIGCBench is a novel and comprehensive benchmark designed for evaluating the capabilities of state-of-the-art video generation algorithms.
 
 Key Features of AIGCBench:
 - Diverse Datasets: AIGCBench incorporates a variety of datasets, including real-world video-text pairs and image-text pairs, to ensure a broad and realistic evaluation spectrum. Additionally, it includes a newly generated dataset created through an innovative text-to-image generation pipeline, enhancing the diversity and representativeness of the benchmark.
@@ -70,7 +70,7 @@ To validate the alignment of our proposed evaluation standards with human prefer
 
 ## Contact Us
 
-If you have any questions, please feel free to contact us via email at fanfanda@ict.ac.cn and jianfengzhan.benchcouncil@gmail.com.
+:email: If you have any questions, please feel free to contact us via email at fanfanda@ict.ac.cn and jianfengzhan.benchcouncil@gmail.com.
 
 
 

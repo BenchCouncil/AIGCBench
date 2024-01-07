@@ -1,8 +1,13 @@
 # AIGCBench
 Our AIGCBench aims to establish a comprehensive benchmark for video generation tasks. Our dataset includes image-text and video-text pairs, and our evaluation metrics cover four dimensions: control-video alignment, motion effects, temporal consistency, and video quality.
 
-## Acknowledgments
-We would like to thank all contributors and organizations behind the data sources, especially the maintainers of WebVid and LAION datasets. 
+| | | | | |
+|-|-|-|-|-|
+| Image | <img src="source/265_Amidst the lush canopy of a deep jungle, a playful panda is brewing a potion, captured with the stark realism of a photo.png" width="200" /> | <img src="source/426_Behold a noble king in the throes of skillfully strumming the guitar surrounded by the tranquil waters of a serene lake, envisioned in the style of an oil painting.png"  width="200" /> |  <img src="source/619_Amidst a sun-dappled forest, a mischievous fairy is carefully repairing a broken robot, captured in the style of an oil painting.png" width="200" /> | <img src="source/824_Within the realm of the backdrop of an alien planet's red skies, a treasure-seeking pirate cleverly solving a puzzle, each moment immortalized in the style of an oil painting.png" width="200" /> |
+| Text  | Amidst the lush canopy of a deep jungle, a playful panda is brewing a potion, captured with the stark realism of a photo.    | Behold a noble king in the throes of skillfully strumming the guitar surrounded by the tranquil waters of a serene lake, envisioned in the style of an oil painting.   | Amidst a sun-dappled forest, a mischievous fairy is carefully repairing a broken robot, captured in the style of an oil painting.    | Within the realm of the backdrop of an alien planet's red skies, a treasure-seeking pirate cleverly solving a puzzle, each moment immortalized in the style of an oil painting.    |
+
+
+
 
 ## Contact Information
 fanfanda@ict.ac.cn and jianfengzhan.benchcouncil@gmail.com

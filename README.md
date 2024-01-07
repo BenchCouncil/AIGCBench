@@ -30,9 +30,10 @@ Below are some images we generated, with the corresponding text:
 
 
 ## Metrics
+
 We have encapsulated the evaluation metrics used in our paper in `eval.py`; for more details, please refer to the paper. To use the code, please first download the [clip model](https://openaipublic.azureedge.net/clip/models/b8cca3fd41ae0c99ba7e8951adf17d267cdb84cd88be6f7c2e0eca1737a03836/ViT-L-14.pt) file and replace the 'path_to_dir' with the actual path.
 
-Below is a simple example.
+Below is a simple example:
 ```python
 batch_video_path = os.path.join('path_to_videos', '*.mp4')
 video_path_list = sorted(glob.glob(batch_video_path))
@@ -46,6 +47,7 @@ print(sum_res / cnt)
 ```
 
 ## Evaluation Results
+
 Quantitative analysis for different Image-to-Video algorithms. An upward arrow indicates that higher values are better, while a downward arrow means lower values are preferable.
 | Dimensions | Metrics | VideoCrafter | I2VGen-XL | SVD | Pika | Gen2 |
 |------------|---------|------------------|---------------|---------|----------|----------|
@@ -62,11 +64,15 @@ Quantitative analysis for different Image-to-Video algorithms. An upward arrow i
 | | DOVER ↑ | 0.518 | 0.510 | 0.623 | 0.715 | **0.775** |
 | | GenVideo-RefVideo SSIM ↑ | 0.367 | 0.304 | 0.507 | **0.560** | 0.504 |
 
+To validate the alignment of our proposed evaluation standards with human preferences, we conducted a study. We randomly selected 30 generated results from each of the five methods. Then, we asked participants to vote on the best algorithm outcomes across four dimensions: Image Fidelity, Motion Effects, Temporal Consistency, and Video Quality. A total of 42 individuals participated in the voting process. The specific results of the study are presented below:
+
+<img src="source/radar_chart_high_res.jpg" alt="Alt text" width="600">
+
+## Contact Us
+
+If you have any questions, please feel free to contact us via email at fanfanda@ict.ac.cn and jianfengzhan.benchcouncil@gmail.com.
 
 
-
-## Contact Information
-fanfanda@ict.ac.cn and jianfengzhan.benchcouncil@gmail.com
 
 ## Citation
 

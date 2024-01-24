@@ -6,7 +6,7 @@
 >
 > Fanda Fan, Chunjie Luo, Wanling Gao, Jianfeng Zhan
 >
-> <a href='https://arxiv.org/abs/2401.01651'><img src='https://img.shields.io/badge/arXiv-2401.01651-red'></a> <a href='https://www.benchcouncil.org/AIGCBench/'><img src='https://img.shields.io/badge/Project-Website-orange'></a> <a href='https://github.com/BenchCouncil/AIGCBench'><img src='https://img.shields.io/badge/Github-Code-green'></a>
+> <a href='https://arxiv.org/abs/2401.01651'><img src='https://img.shields.io/badge/arXiv-2401.01651-red'></a> <a href='https://www.benchcouncil.org/AIGCBench/'><img src='https://img.shields.io/badge/Project-Website-orange'></a> <a href='https://github.com/BenchCouncil/AIGCBench'><img src='https://img.shields.io/badge/Github-Code-green'></a> <a href='https://huggingface.co/datasets/stevenfan/AIGCBench_v1.0'><img src='https://img.shields.io/badge/Huggingface-Dataset-yellow'></a>
 
 <p align="center">
 <img src="./source/I2VFramework.jpg" width="1080px"/>  
